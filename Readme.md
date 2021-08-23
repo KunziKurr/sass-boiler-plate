@@ -1,4 +1,4 @@
-# Foobar
+# HEADER BAR
 
 SASS is a is a preprocessor scripting language that is interpreted or compiled into Cascading Style Sheets.
 This projects compiles `SCSS` files into one `CSS` file.
@@ -7,11 +7,11 @@ This projects compiles `SCSS` files into one `CSS` file.
     Compressed CSS file
     Autoprefixing for cross-browser compatibility.
 ## CSS MEDIA QUERY REFERENCE
-     0-600px : PHONE
-    600-900px: Tablet Portrait
-    900-1200px: Tablet Landscape
-    {1200-1800} is our normal styls application
-    1800 + : Big Desktop
+     0-575px : PHONE
+    576-992px: Tablet Portrait
+    993-1200px: Tablet Landscape
+    {1200-1440px} is our normal styls application
+    1441px + : Big Desktop
 
 ## MIXINS USAGE
     body {
@@ -34,8 +34,9 @@ This projects compiles `SCSS` files into one `CSS` file.
         }
 }
 ## Installation
-
+    git clone https://github.com/KunziKurr/sass-boiler-plate.git
     Clone the repository to get the basic folder structure
+ 
        
 ## Usage
 1. After cloning, paste the `sass` to your project folder.
